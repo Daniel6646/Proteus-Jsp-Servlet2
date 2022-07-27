@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Update Personal Details</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pageview.css">
+    </head>
+    <body bgcolor="grey">
+        <form action="repersonal" method="post">
+            <div align="center">
+                <h2><b>If you do not want to update an entry just enter the same information again in that entry to remove confusion</b></h2>
+                <label for="f4">Student Number:</label>
+                <input type="number" id="f4" name="stnum" required placeholder="Enter correct student number"><br>
+                <label for="f1">First Name:</label>
+                <input type="text" id="f1" name="fname" placeholder="Enter first name" required><br>
+                <label for="f2">Last Name:</label>
+                <input type="text" id="f2" name="lname" placeholder="Enter last name put - in the box if no last name"><br>
+                <label class="c4">Gender:</label>
+                <input type="radio" id="male" name="gen" value="male">Male
+                <input type="radio" id="female" name="gen" value="female">Female<br>
+                <label for="f5">Date of Birth:</label>
+                <input type="date" id="f5" name="date1" required><br>
+                <input type="submit" name="b1" value="Update">
+                <input type="reset" name="b2" value="Reset"><br>
+            </div>
+        </form>
+    </body>
+</html>

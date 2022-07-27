@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="pageview.css">
+    </head>
+    <body bgcolor="grey">
+        <form name="f0" action="RegisterServlet" method="post">
+        <p align="center"><b>Student Details</b></p><br>
+        <div align="center">
+        <label for="f1">First Name:</label>
+        <input type="text" id="f1" name="fname" placeholder="Enter first name" required><br>
+        <label for="f2">Last Name:</label>
+        <input type="text" id="f2" name="lname" placeholder="Enter last name put - in the box if no last name"><br>
+        <label for="f3">Email:</label>
+        <input type="email" id="f3" name="semail" placeholder="Enter proper email" required><br>
+        <label for="f4">Mobile Number:</label>
+        <input type="tel" id="f4" name="snum" placeholder="Enter 10 digits only" required><br>
+        <label class="c4">Gender:</label>
+        <input type="radio" id="male" name="gen" value="male">Male
+        <input type="radio" id="female" name="gen" value="female">Female
+        </div>
+        <div align="center">
+            <label for="f5">Date of Birth:</label>
+            <input type="date" id="f5" name="date1" required><br>
+            <label for="f6">City:</label>
+            <input type="text" id="f6" name="scity" required placeholder="Enter city"><br>
+            <label for="f7">State:</label>
+            <input type="text" id="f7" name="sstate" required placeholder="Enter State"><br>
+        </div>
+        <div align="center">
+            <label for="f8">Password:</label>
+            <input type="password" id="f8" name="spass" required maxlength="16" placeholder="Password length should be atleast 8"><br>
+            <input type="submit" name="b1" value="Submit">
+            <input type="reset" name="b2" value="Reset"><br>
+            <p><i>Already joined? <a href="login.html">Click to Login here</a></i></p>
+        </div>
+        </form>
+    </body>
+</html>
